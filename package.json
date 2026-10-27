@@ -1,0 +1,14 @@
+{
+  "name": "rafaelkillua",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GitHub profile README and the dependency-free stats cards it shows",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "generate": "node scripts/generate-stats.mjs",
+    "test": "node --test"
+  }
+}

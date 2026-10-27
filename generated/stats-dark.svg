@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="210" viewBox="0 0 360 210" role="img" aria-labelledby="stats-title stats-desc">
+<title id="stats-title">GitHub</title>
+<desc id="stats-desc">GitHub statistics for Rafael Sampaio Tavares: 894 stars, 47 forks, 3,323 contributions, 688,315 lines changed, 60 views in the last 14 days, 56 repositories.</desc>
+<style>
+  .card { fill: #101c20; stroke: #2a2638; stroke-width: 1; }
+  text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  .heading { fill: #f4eff7; font-size: 15px; font-weight: 600; letter-spacing: -0.01em; }
+  .meta { fill: #a8a3b8; font-size: 11px; }
+  .value { fill: #f4eff7; font-size: 20px; font-weight: 600; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+  .label { fill: #948da2; font-size: 10px; font-weight: 500; letter-spacing: 0.07em; }
+  .accent { fill: #9fe8ff; }
+  .track { fill: #2a2638; }
+  .lang { fill: #f4eff7; font-size: 11px; }
+  .pct { fill: #948da2; font-size: 11px; font-variant-numeric: tabular-nums; }
+  .end { text-anchor: end; }
+</style>
+<rect x="0.5" y="0.5" width="359" height="209" rx="12" class="card"/>
+<text x="24" y="33" class="heading">GitHub</text>
+<text x="336" y="33" class="meta end">@rafaelkillua</text>
+<rect x="24" y="45" width="22" height="3" rx="1.5" class="accent"/>
+<text x="24" y="86" class="value">894</text>
+<text x="24" y="102" class="label">STARS</text>
+<text x="188" y="86" class="value">47</text>
+<text x="188" y="102" class="label">FORKS</text>
+<text x="24" y="132" class="value">3,323</text>
+<text x="24" y="148" class="label">CONTRIBUTIONS</text>
+<text x="188" y="132" class="value">688,315</text>
+<text x="188" y="148" class="label">LINES CHANGED</text>
+<text x="24" y="178" class="value">60</text>
+<text x="24" y="194" class="label">VIEWS · 14 DAYS</text>
+<text x="188" y="178" class="value">56</text>
+<text x="188" y="194" class="label">REPOSITORIES</text>
+</svg>

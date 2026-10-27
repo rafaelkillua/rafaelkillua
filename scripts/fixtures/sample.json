@@ -1,0 +1,30 @@
+{
+  "user": {
+    "login": "rafaelkillua",
+    "name": "Rafael Sampaio Tavares"
+  },
+  "stars": 894,
+  "forks": 47,
+  "contributions": 3323,
+  "linesChanged": 688315,
+  "views": 60,
+  "repositoryCount": 56,
+  "languages": [
+    { "name": "TypeScript", "color": "#3178c6", "size": 4197 },
+    { "name": "JavaScript", "color": "#f1e05a", "size": 3634 },
+    { "name": "Java", "color": "#b07219", "size": 866 },
+    { "name": "C++", "color": "#f34b7d", "size": 560 },
+    { "name": "Vue", "color": "#41b883", "size": 243 },
+    { "name": "HTML", "color": "#e34c26", "size": 172 },
+    { "name": "CSS", "color": "#663399", "size": 107 },
+    { "name": "Python", "color": "#3572A5", "size": 65 },
+    { "name": "Shell", "color": "#89e051", "size": 56 },
+    { "name": "Kotlin", "color": "#A97BFF", "size": 25 },
+    { "name": "R", "color": "#198CE7", "size": 12 },
+    { "name": "Assembly", "color": "#6E4C13", "size": 11 },
+    { "name": "Makefile", "color": "#427819", "size": 10 },
+    { "name": "Objective-C", "color": "#438eff", "size": 9 },
+    { "name": "Pug", "color": "#a86454", "size": 9 },
+    { "name": "Dockerfile", "color": "#384d54", "size": 24 }
+  ]
+}
