@@ -11,6 +11,7 @@ import {
   aggregateRepositories,
   collectStats,
   fetchContributionTotal,
+  fetchLinesChanged,
   graphql,
   mapLimit,
 } from "./lib/github.mjs";
@@ -364,17 +365,18 @@ test("collectStats paginates, deduplicates and folds REST figures", async () => 
       return {
         ok: true,
         status: 200,
-        json: async () => [
-          { author: { login: "rafaelkillua" }, weeks: [{ a: 10, d: 5 }] },
-          { author: { login: "someone" }, weeks: [{ a: 999, d: 999 }] },
-        ],
+        text: async () =>
+          JSON.stringify([
+            { author: { login: "rafaelkillua" }, weeks: [{ a: 10, d: 5 }] },
+            { author: { login: "someone" }, weeks: [{ a: 999, d: 999 }] },
+          ]),
       };
     }
     if (String(url).includes("/traffic/views")) {
       return {
         ok: true,
         status: 200,
-        json: async () => ({ views: [{ count: 7 }, { count: 0 }] }),
+        text: async () => JSON.stringify({ views: [{ count: 7 }, { count: 0 }] }),
       };
     }
     throw new Error(`unexpected URL ${url}`);
@@ -416,4 +418,18 @@ test("collectStats refuses a bot token", async () => {
   });
 
   await assert.rejects(collectStats("token", { fetchImpl }), /bot account/);
+});
+
+test("empty REST bodies are treated as no data", async () => {
+  const fetchImpl = async () => ({ ok: true, status: 200, text: async () => "" });
+  assert.equal(
+    await fetchLinesChanged("token", ["rafaelkillua/empty"], "rafaelkillua", { fetchImpl }),
+    0,
+  );
+  assert.equal(
+    await fetchLinesChanged("token", ["rafaelkillua/empty"], "rafaelkillua", {
+      fetchImpl: async () => ({ ok: true, status: 204, text: async () => "" }),
+    }),
+    0,
+  );
 });

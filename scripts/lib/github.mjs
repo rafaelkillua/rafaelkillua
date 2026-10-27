@@ -112,7 +112,12 @@ async function rest(token, path, fetchImpl = fetch, { attempts = 6 } = {}) {
     if (!response.ok) {
       throw new GitHubError(`GitHub REST ${path} returned HTTP ${response.status}`, response.status);
     }
-    return response.json();
+    if (response.status === 204) return null;
+
+    // Empty repos answer 200 with an empty body; that is data, not an error.
+    const text = await response.text();
+    if (!text.trim()) return null;
+    return JSON.parse(text);
   }
   return null;
 }

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="210" viewBox="0 0 360 210" role="img" aria-labelledby="stats-title stats-desc">
 <title id="stats-title">Languages</title>
-<desc id="stats-desc">Languages used by Rafael Sampaio Tavares: TypeScript 42.0%, JavaScript 36.3%, Java 8.7%, C++ 5.6%, Vue 2.4%, HTML 1.7%, CSS 1.1%, Other 2.2%.</desc>
+<desc id="stats-desc">Languages used by Rafael Sampaio Tavares: JavaScript 35.3%, Java 19.8%, C++ 12.6%, TypeScript 10.2%, C 4.9%, Shell 4.2%, Vue 3.8%, Other 9.2%.</desc>
 <style>
   .card { fill: #f8f3f7; stroke: #d9cfdd; stroke-width: 1; }
   text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
@@ -23,37 +23,37 @@
 </defs>
 <rect x="24" y="60" width="312" height="8" rx="4" class="track"/>
 <g clip-path="url(#language-bar)">
-<rect x="24.00" y="60" width="130.95" height="8" fill="#3178c6"/>
-<rect x="154.95" y="60" width="113.38" height="8" fill="#f1e05a"/>
-<rect x="268.33" y="60" width="27.02" height="8" fill="#b07219"/>
-<rect x="295.35" y="60" width="17.47" height="8" fill="#f34b7d"/>
-<rect x="312.82" y="60" width="7.58" height="8" fill="#41b883"/>
-<rect x="320.40" y="60" width="5.37" height="8" fill="#e34c26"/>
-<rect x="325.77" y="60" width="3.34" height="8" fill="#663399"/>
-<rect x="329.10" y="60" width="6.90" height="8" fill="#9a8ba3"/>
+<rect x="24.00" y="60" width="110.29" height="8" fill="#f1e05a"/>
+<rect x="134.29" y="60" width="61.67" height="8" fill="#b07219"/>
+<rect x="195.96" y="60" width="39.31" height="8" fill="#f34b7d"/>
+<rect x="235.28" y="60" width="31.78" height="8" fill="#3178c6"/>
+<rect x="267.06" y="60" width="15.33" height="8" fill="#555555"/>
+<rect x="282.39" y="60" width="13.07" height="8" fill="#89e051"/>
+<rect x="295.46" y="60" width="11.91" height="8" fill="#41b883"/>
+<rect x="307.37" y="60" width="28.63" height="8" fill="#9a8ba3"/>
 </g>
-<circle cx="28" cy="86.5" r="4" fill="#3178c6"/>
-<text x="38" y="90" class="lang">TypeScript</text>
-<text x="172" y="90" class="pct end">42.0%</text>
-<circle cx="192" cy="86.5" r="4" fill="#f1e05a"/>
-<text x="202" y="90" class="lang">JavaScript</text>
-<text x="336" y="90" class="pct end">36.3%</text>
-<circle cx="28" cy="116.5" r="4" fill="#b07219"/>
-<text x="38" y="120" class="lang">Java</text>
-<text x="172" y="120" class="pct end">8.7%</text>
-<circle cx="192" cy="116.5" r="4" fill="#f34b7d"/>
-<text x="202" y="120" class="lang">C++</text>
-<text x="336" y="120" class="pct end">5.6%</text>
-<circle cx="28" cy="146.5" r="4" fill="#41b883"/>
-<text x="38" y="150" class="lang">Vue</text>
-<text x="172" y="150" class="pct end">2.4%</text>
-<circle cx="192" cy="146.5" r="4" fill="#e34c26"/>
-<text x="202" y="150" class="lang">HTML</text>
-<text x="336" y="150" class="pct end">1.7%</text>
-<circle cx="28" cy="176.5" r="4" fill="#663399"/>
-<text x="38" y="180" class="lang">CSS</text>
-<text x="172" y="180" class="pct end">1.1%</text>
+<circle cx="28" cy="86.5" r="4" fill="#f1e05a"/>
+<text x="38" y="90" class="lang">JavaScript</text>
+<text x="172" y="90" class="pct end">35.3%</text>
+<circle cx="192" cy="86.5" r="4" fill="#b07219"/>
+<text x="202" y="90" class="lang">Java</text>
+<text x="336" y="90" class="pct end">19.8%</text>
+<circle cx="28" cy="116.5" r="4" fill="#f34b7d"/>
+<text x="38" y="120" class="lang">C++</text>
+<text x="172" y="120" class="pct end">12.6%</text>
+<circle cx="192" cy="116.5" r="4" fill="#3178c6"/>
+<text x="202" y="120" class="lang">TypeScript</text>
+<text x="336" y="120" class="pct end">10.2%</text>
+<circle cx="28" cy="146.5" r="4" fill="#555555"/>
+<text x="38" y="150" class="lang">C</text>
+<text x="172" y="150" class="pct end">4.9%</text>
+<circle cx="192" cy="146.5" r="4" fill="#89e051"/>
+<text x="202" y="150" class="lang">Shell</text>
+<text x="336" y="150" class="pct end">4.2%</text>
+<circle cx="28" cy="176.5" r="4" fill="#41b883"/>
+<text x="38" y="180" class="lang">Vue</text>
+<text x="172" y="180" class="pct end">3.8%</text>
 <circle cx="192" cy="176.5" r="4" fill="#9a8ba3"/>
 <text x="202" y="180" class="lang">Other</text>
-<text x="336" y="180" class="pct end">2.2%</text>
+<text x="336" y="180" class="pct end">9.2%</text>
 </svg>
