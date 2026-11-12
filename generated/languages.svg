@@ -23,14 +23,14 @@
 </defs>
 <rect x="24" y="60" width="312" height="8" rx="4" class="track"/>
 <g clip-path="url(#language-bar)">
-<rect x="24.00" y="60" width="109.36" height="8" fill="#f1e05a"/>
-<rect x="133.36" y="60" width="59.82" height="8" fill="#b07219"/>
-<rect x="193.18" y="60" width="38.13" height="8" fill="#f34b7d"/>
-<rect x="231.31" y="60" width="34.56" height="8" fill="#3178c6"/>
-<rect x="265.87" y="60" width="17.02" height="8" fill="#89e051"/>
-<rect x="282.90" y="60" width="14.05" height="8" fill="#3572A5"/>
-<rect x="296.94" y="60" width="11.55" height="8" fill="#41b883"/>
-<rect x="308.50" y="60" width="27.50" height="8" fill="#9a8ba3"/>
+<rect x="24.00" y="60" width="109.35" height="8" fill="#f1e05a"/>
+<rect x="133.35" y="60" width="59.82" height="8" fill="#b07219"/>
+<rect x="193.16" y="60" width="38.13" height="8" fill="#f34b7d"/>
+<rect x="231.30" y="60" width="34.56" height="8" fill="#3178c6"/>
+<rect x="265.85" y="60" width="17.02" height="8" fill="#89e051"/>
+<rect x="282.87" y="60" width="14.05" height="8" fill="#3572A5"/>
+<rect x="296.92" y="60" width="11.55" height="8" fill="#41b883"/>
+<rect x="308.47" y="60" width="27.53" height="8" fill="#9a8ba3"/>
 </g>
 <circle cx="28" cy="86.5" r="4" fill="#f1e05a"/>
 <text x="38" y="90" class="lang">JavaScript</text>
