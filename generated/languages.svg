@@ -25,12 +25,12 @@
 <g clip-path="url(#language-bar)">
 <rect x="24.00" y="60" width="108.89" height="8" fill="#f1e05a"/>
 <rect x="132.89" y="60" width="58.29" height="8" fill="#b07219"/>
-<rect x="191.18" y="60" width="37.16" height="8" fill="#f34b7d"/>
-<rect x="228.34" y="60" width="34.28" height="8" fill="#3178c6"/>
-<rect x="262.62" y="60" width="19.25" height="8" fill="#89e051"/>
-<rect x="281.87" y="60" width="14.94" height="8" fill="#3572A5"/>
-<rect x="296.81" y="60" width="11.26" height="8" fill="#41b883"/>
-<rect x="308.06" y="60" width="27.94" height="8" fill="#9a8ba3"/>
+<rect x="191.17" y="60" width="37.15" height="8" fill="#f34b7d"/>
+<rect x="228.32" y="60" width="34.28" height="8" fill="#3178c6"/>
+<rect x="262.60" y="60" width="19.25" height="8" fill="#89e051"/>
+<rect x="281.85" y="60" width="14.94" height="8" fill="#3572A5"/>
+<rect x="296.79" y="60" width="11.26" height="8" fill="#41b883"/>
+<rect x="308.05" y="60" width="27.95" height="8" fill="#9a8ba3"/>
 </g>
 <circle cx="28" cy="86.5" r="4" fill="#f1e05a"/>
 <text x="38" y="90" class="lang">JavaScript</text>
